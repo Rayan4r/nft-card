@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Very-dark-blue: hsl(217, 54%, 11%);
+    --Very-dark-blue: hsl(216, 50%, 16%);
+    --Very-dark-blue: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+body{
+    font-size: 18px;
+    font-family: 'Outfit';
+    background-color: hsl(217, 54%, 11%);
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 325px;
+    border-radius: 10px;
+}
+img{
+    margin-top: 18px;
+    border-radius: 5px;
+}
+.txt{
+    margin: 10px 25px 15px 15px;
+}
+.txt h3{
+    color:hsl(0, 0%, 100%);
+    margin-bottom: 5px;
+}
+.txt p{
+    color: hsl(215, 32%, 27%);
+}
+.txt .price-days{
+    display: flex;
+    justify-content: space-between;
+}
+.txt .price-days .price{
+    display: flex;
+    align-items: end;
+}
+.txt .price-days .price h4{
+    color: var(--Cyan);
+    margin-left: 4px;
+}
+.txt .price-days .price p{
+    margin-left: 4px;
+}
+.line{
+    width: 90%;
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+}
+.down{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: -5px 10px 15px -30px;
+}
+.down img{
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.down p{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: hsl(215, 32%, 27%);
+}
+.down p span{
+    color: #fff;
+}
+
+
+
+
+.attribution { 
+    font-size: 14px; 
+    text-align: center; 
+}
+.attribution a { 
+    font-size: 14px; 
+    color: hsl(228, 45%, 44%); 
+}
